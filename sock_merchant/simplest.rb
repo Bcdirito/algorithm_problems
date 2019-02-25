@@ -15,7 +15,7 @@ def sockMerchant(ar)
     # iterate through the hash values
     # using a ternary, if the value of a key is two or more, divide that value by two, then round down to get number of pairs
     # if only one sock, move on to next key-value pair
-    sockHash.values.each {|k, v| v >= 2 ? total += (v / 2).floor : next}
+    sockHash.values.each {|v| v >= 2 ? total += (v / 2).floor : next}
 
     # implicit return
     total
