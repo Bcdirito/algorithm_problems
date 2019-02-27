@@ -8,4 +8,5 @@ function two_sum(ints, s){
         history[difference] = ints[i]
       }
     }
+    return "No Pair Sum"
 }
