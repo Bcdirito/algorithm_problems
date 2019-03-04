@@ -1,14 +1,9 @@
+// Runtime 108ms, Memory Usage 38.3 MB
+
 function isAnagram(s, t) {
-    let tArr = t.split("")
-    
-    for (let i = 0; i < s.length; i++){
-        if (!tArr.includes(s[i])){
-            return false
-        } else {
-            let ind = tArr.indexOf(s[i])
-            tArr.splice(ind, 1)
-        }
-    }
-    
-    return tArr.length === 0
+    // split both strings into arrays
+    // sort both arrays
+    // join both arrays
+    // compare strings and return boolean
+    return s.split("").sort().join("") === t.split("").sort().join("")
 };
