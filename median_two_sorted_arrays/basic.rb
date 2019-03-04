@@ -1,4 +1,4 @@
-# Runtime 68ms, Memory Usage 12.8 MB
+# Runtime 68ms, Memory Usage 12.8MB
 
 def find_median_sorted_arrays(nums1, nums2)
     # create a new array combining the two argument arrays
