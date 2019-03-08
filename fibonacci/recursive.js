@@ -1,3 +1,5 @@
+// Runtime 72ms, Memory Usage 33.8 MB
+
 function fibonacci(N) {
     // declare store variable as an arr
     // this is where we will store all the sum we get when running through the recursive
