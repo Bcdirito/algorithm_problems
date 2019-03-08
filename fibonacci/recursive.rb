@@ -1,6 +1,6 @@
 # Runtime 48 ms, Memory Usage 9.4 MB
 
-def fib(n)
+def fibonacci(n)
     # create store array
     # this is where we will store the sums we get from the recursive
     store = [0, 1]
