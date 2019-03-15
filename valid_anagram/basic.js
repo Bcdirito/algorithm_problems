@@ -6,13 +6,14 @@ function isAnagram(s, t) {
     
     // iterate through the s string
     for (let i = 0; i < s.length; i++){
-        if (!tArr.includes(s[i])){
-            // if that letter does not appear in the array, it is not valid anagram
+        // find the index of the element in tArr
+        let ind = tArr.indexOf(s[i])
+        if (ind === -1){
+            // if that letter does not appear in the array, the value will equal -1
+            // therefore, t is not a valid anagram
             return false
         } else {
             // if that letter appears in the array, find the first index of that letter
-            let ind = tArr.indexOf(s[i])
-
             // remove that letter from the array
             tArr.splice(ind, 1)
         }
