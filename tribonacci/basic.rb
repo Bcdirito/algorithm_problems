@@ -1,8 +1,11 @@
 def tribonacci(signature,n)
     if n == 0
-      return []
+        # if n == 0, return an empty array
+        # an empty array has a length of 0
+        return []
     elsif n <= 3
-      return signature[0...n]
+        # if n is less than or equal to 3
+        return signature[0...n]
     else
       array = signature
       remainder = n - 3
