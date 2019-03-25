@@ -8,8 +8,8 @@ class Solution(object):
         # declare a counter variable, set it equal to run
         i = 1
         
-        # run the loop while i is less than the input N
-
+        # run the loop while the last index is one less than the final length of our store
+        # the final length will be equal to N
         while i < N:
             # declare a variable equal to the sum of the two integers in the store
             sum = store[0] + store[-1]
