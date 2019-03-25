@@ -22,5 +22,5 @@ class Solution(object):
             # increase the counter by one
             i += 1
             
-        
+        # return the last element in the store
         return store[-1]
