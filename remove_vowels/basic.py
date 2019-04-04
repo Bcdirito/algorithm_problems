@@ -13,4 +13,5 @@ def disemvowel(string):
         if s.lower() not in vowels:
             edit_string += s
     
+    # return the edited string
     return edit_string
