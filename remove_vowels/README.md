@@ -16,7 +16,7 @@ Ruby:
 [https://www.codewars.com/kata/disemvowel-trolls/train/ruby]
 
 JavaScript:
-[]
+[https://www.codewars.com/kata/disemvowel-trolls/train/javascript]
 
 Python:
 [https://www.codewars.com/kata/52fba66badcd10859f00097e/train/python]
