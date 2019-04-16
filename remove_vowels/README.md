@@ -11,7 +11,7 @@ Note: for this algorithm "y" isn't considered a vowel.
 
 "Welcome to the thunderdome" -> "Wlcm t th thndrdm"
 
-#### Algorithm Found On Leet Code:
+#### Algorithm Found On Code Wars:
 Ruby:
 [https://www.codewars.com/kata/disemvowel-trolls/train/ruby]
 
