@@ -1,4 +1,4 @@
-def openOrSenior(data)
+def open_or_senior(data)
     final_arr = []
     data.each do |a|
       if a[0] >= 55 && a[1] > 7
