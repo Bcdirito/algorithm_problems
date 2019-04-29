@@ -9,3 +9,5 @@ The Next Greater Number of a number x in nums1 is the first greater number to it
 nums1 = [4, 1, 2], nums2 = [1, 3, 4, 2] -> [-1, 3, -1]
 
 nums1 = [2, 4], nums2 = [1, 2, 3, 4] -> [3, -1]
+
+#### Algorithm found on LeetCode
