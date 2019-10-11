@@ -1,3 +1,5 @@
+// Runtime 64 ms, Memory Usage 36.3 MB
+
 const addDigits = (num) => {
     // check if number is less than 10
     if (num >= 10){
