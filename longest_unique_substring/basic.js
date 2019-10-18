@@ -43,6 +43,7 @@ const lengthOfLongestSubstring = (s) => {
     
     // iterate through the argument string
     for (let i = 0; i < s.length; i++){
+        // slice the string from the current index to the end
         // run the helper function
         getSubstring(s.slice(i))    
     }
