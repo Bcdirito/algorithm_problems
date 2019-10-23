@@ -13,7 +13,7 @@ def top_k_frequent(nums, k)
     sorted_history = history.sort_by {|k, v| v}
     
     # get a slice of the array of the last k elements
-    # map through the array grabbing the first of each array
+    # map through the array grabbing the first element of each array
     # return the map
     sorted_history[-k..-1].map {|i| i.first}
 end
