@@ -1,4 +1,4 @@
-// Runtime ms, Memory Usage MB
+// Runtime 164 ms, Memory Usage 67.1 MB
 
 const rangeSumBST = (root, L, R) => {
     // initialize a total variable
