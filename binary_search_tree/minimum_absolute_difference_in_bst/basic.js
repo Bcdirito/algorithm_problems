@@ -1,11 +1,8 @@
-// Runtime 232 ms, Memory Usage 42.1 MB
+// Runtime 184 ms, Memory Usage 42.1 MB
 
 const getMinimumDifference = (root) => {
-    // initialize two variables
-    // the first will be an empty array that will eventually hold all of the values from the tree
-    // the second is an undefined variable whose value will be the lowest absolute difference
+    // initialize an empty array that will eventually hold all of the values from the tree
     let allVals = []
-    let minDiff;
 
     // declare a helper function that takes in a node
     // this function will gather all of the values from the tree
@@ -20,6 +17,9 @@ const getMinimumDifference = (root) => {
     
     // run the function
     getTreeVals(root)
+
+    // initialize another variable whose starting value will be the absolute difference between the first two elements in the array
+    let minDiff = Math.abs(allVals[0] - allVals[1])
     
     // declare a second helper function that takes in a number and an array
     const getLowestDifference = (num, arr) => {
