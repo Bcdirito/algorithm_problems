@@ -1,3 +1,5 @@
+# Runtime 40 ms, Memory Usage 15.7 MB
+
 class Solution:
     def averageOfLevels(self, root: TreeNode):
         # initialize two variables
