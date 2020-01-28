@@ -1,3 +1,5 @@
+// Runtime 56 ms, Memory usage 33.7 MB
+
 const tribonacci = (n) => {
     // intialize a base tribonacci array
     // initialize a reducer function for the array that will give us the sum of the values
