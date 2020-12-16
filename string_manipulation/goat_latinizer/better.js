@@ -1,12 +1,23 @@
+// Runtime 72 ms, Memory Usage 38 MB
 const toGoatLatin = (S) => {
+    // define three variables
+    // an empty object to use as a reference for vowels
+    // the string split into an array by word
+    // an empty string that will hold the appropriate amount of "a"'s to tack on to the suffix 
     let reference = {}
-    let splitStr = S.split(" ")
+    const splitStr = S.split(" ")
     let aCount = ""
 
+    // iterate through a string of vowels to create the reference object
+    // the value of the reference object doesn't matter so long as it is not set to undefined
     for (const char of "aeiouAEIOU") {
         reference[char] = ""
     }
 
+    // iterate through the split string to create a map
+    // for each word, increment the aCount string by one "a"
+    // using string interpolation, create the suffix by combining "ma" w/the aCount
+    // 
     return splitStr.map(word => {
         aCount += "a"
         let suffix = `ma${aCount}` 
