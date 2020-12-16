@@ -1,4 +1,4 @@
-// Runtime 72 ms, Memory Usage 38 MB
+// Runtime 68 ms, Memory Usage 38 MB
 const toGoatLatin = (S) => {
     // define three variables
     // an empty object to use as a reference for vowels
@@ -17,7 +17,7 @@ const toGoatLatin = (S) => {
     // iterate through the split string to create a map
     // for each word, increment the aCount string by one "a"
     // using string interpolation, create the suffix by combining "ma" w/the aCount
-    // 
+    // check if the first character is a vowel, and create the appropriate goat word
     return splitStr.map(word => {
         aCount += "a"
         let suffix = `ma${aCount}` 
