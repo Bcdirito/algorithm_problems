@@ -5,15 +5,15 @@ const runningSum = (nums) => {
     // 1. an array of the sums
     // 2. an arrary of the original numbers to add together
     // 3. a reducer function to get the sums
-    let sums = []
-    let itNums = []
+    let sums = [nums[0]]
+    let itNums = [nums[0]]
     let reducer = (total, currentVal) => total+currentVal
     
 
     // iterate through the input array
     // push the original numbers into the appropriate array
     // add the sum of each of those numbers to the sums array
-    for (let i = 0; i < nums.length; i++) {
+    for (let i = 1; i < nums.length; i++) {
         itNums.push(nums[i])
         sums.push(itNums.reduce(reducer))
     }
