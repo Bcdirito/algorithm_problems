@@ -1,4 +1,4 @@
-def halvesAreAlike(self, s: str) -> bool:
+def halvesAreAlike(s):
     mid_idx = int(len(s) / 2)
     first = s[0:mid_idx]
     second = s[mid_idx:]
